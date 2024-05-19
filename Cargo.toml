@@ -2,6 +2,14 @@
 name = "unused-pkg"
 version = "0.1.0"
 edition = "2021"
+authors = ["Johan Montorfano <me@johanmontorfano.com>"]
+license = "MIT"
+description = "A tool to check for unused and outdated packages in a Rust/Node project."
+readme = "README.md"
+homepage = "https://github.com/johanmontorfano/unused-pkg"
+repository = "https://github.com/johanmontorfano/unused-pkg"
+keywords = ["cli", "packages", "check", "project"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 cargo_toml = "0.20.2"
