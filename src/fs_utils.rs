@@ -35,7 +35,7 @@ pub fn contains_none_of(string: &str, items: Vec<&str>) -> bool {
 }
 
 /// Recursively list each file from a directory entry. 
-/// Files in IGNORED_FOLDERS are automatically ignored. 
+/// Folders in IGNORED_FOLDERS are automatically ignored. 
 /// Files in IGNORED_FILES are automatically ignored.
 pub fn recursive_listing(source: &PathBuf) -> Vec<String> {
     let mut files_content = Vec::new();
